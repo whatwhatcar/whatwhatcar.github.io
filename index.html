@@ -1,15 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>welcome!</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
 
+    <!-- Material Icons from Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <header>
-        <h1>hello!</h1>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <!-- Example icon next to your name -->
+            <span class="material-icons">code</span>
+            Your Name
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#about"><span class="material-icons">person</span> About</a></li>
+            <li><a href="#skills"><span class="material-icons">build</span> Skills</a></li>
+            <li><a href="#projects"><span class="material-icons">work</span> Projects</a></li>
+            <li><a href="#contact"><span class="material-icons">mail</span> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Your Name</h1>
+            <p>Web Development Student & Aspiring Developer</p>
+        </div>
     </header>
-    <main>
-        <p>test</p>
-    </main>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>...</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><span class="material-icons">html5</span> HTML</li>
+            <li><span class="material-icons">css</span> CSS</li>
+            <li><span class="material-icons">devices</span> Responsive Design</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3><span class="material-icons">folder</span> Project Title</h3>
+                <p>...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2><span class="material-icons">mail_outline</span> Contact</h2>
+        <p>Email: youremail@example.com</p>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Your Name. All rights reserved.</p>
+    </footer>
+
 </body>
+</html>
