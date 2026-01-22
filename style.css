@@ -183,3 +183,9 @@ section h2 {
     font-size: 20px;        /* adjust size */
     color: #555;            /* change color */
 }
+
+.web-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
